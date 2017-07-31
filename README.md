@@ -1,5 +1,3 @@
-# EvilSploit
-
 # Evilsploit - A Universal Hardware Hacking Toolkit.
 
 First of all, we all know about hardware hacking, and how messy to start a hardware hacking You need to study the hardware, to find a way to get the software, and hack it
