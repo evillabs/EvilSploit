@@ -21,4 +21,15 @@ Please ask yourself, how often you made such a simple mistake while doing hardwa
 
 On the other hand, most hardware hacking literatures are still demanding or assuming a reader to understand what are Tx, Rx, Gnd, or even TMS, TDI, TDO, TCK
 Yes, it is really unfriendly
-So, the question now is, is it compulsory to understand those nasty things in order to hack a h
+So, the question now is, is it compulsory to understand those nasty things in order to hack a hardware ?
+
+Try to imagine, if a special cable, which one end is connecting to your computer's USB port and another end connecting to the target hardware with a special connector
+then from minicom, putty, urjtag, or openocd point of view, is it still compulsory to understand those complicated things ? At least I dun think so
+
+The issue is just like we never need to understand how the ECU works to drive a car, and that's why the car hacking issues get into the place
+
+So, the intension of our Evilsploit is the special cable that I mentioned earlier to allow everybody who interested to hack a hardware can have the most beautiful experience in the first try
+
+Forget about Tx, Rx, TMS, TDI and TDO things, forget about pin number, forget about which color of jumper cable should connect to which pin
+Now, simply build the connection to those suspected pins that you believe is provisioning port, the Evilsploit will do all the rest of the nasty and complicated things
+After that, fire up the minicom or openocd, the target hardware is ready for you, and here you go
